@@ -1,34 +1,15 @@
-# Software-Testing-Project
-Interactive Class Quiz
+React Firebase Job Portal Application
 
-Madhav Jariwala
-MahammedNaizm Umta
-Nupur Gupta
-Software Testing Program
-Cegep de la Gaspésie et des Iles
-Montreal Campus
-Professor-Silviya Paskaleva
-11 June 2024
+This project is a job portal web application built using React, Firebase, and integrated with Selenium for automated testing. Users can view job postings, apply for jobs, and administrators can manage job listings.
 
+Features
 
+	•	Authentication: Users can sign up, sign in, and sign out securely using Firebase Authentication. Administrators have elevated privileges to manage job postings.
+	•	Job Postings: Users can view available job postings with details such as job description, company name, number of vacancies, and application deadlines.
+	•	Job Application: Users can apply for jobs by uploading their resumes. Administrators can view and manage job applications.
 
+Technologies Used
 
-
-
-
-
-
-
-
-Interactive Class Quiz
-This is a web-based application designed to create and take quizzes for classroom learning.
-Features:
-•	Create Quizzes: Define questions with multiple-choice, true/false, or short answer options (using JavaScript).
-•	Take Quizzes: Answer questions and receive a final score with optional feedback.
-•	User Interface: Clean and responsive design built with Bootstrap.
-•	JavaScript Logic: Handles quiz evaluation and scoring.
-Technologies Used:
-•	HTML: Structure the user interface.
-•	CSS: Style the quiz elements and layout (using Bootstrap).
-•	JavaScript: Manage user interactions, quiz logic (question selection, scoring), and DOM manipulation.
-
+	•	Frontend: React, React Router
+	•	Backend: Firebase Realtime Database, Firebase Authentication, Firebase Storage
+	•	Testing: Selenium WebDriver for automated testing
